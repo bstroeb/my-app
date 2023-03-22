@@ -10,7 +10,6 @@ export class AppComponent {
   title = 'my-app';
 
   constructor() {
-    console.log(environment.OKTA_ISSUER);
-    console.log(environment.OKTA_CLIENT_SECRET);
+    console.log(environment.apiUrl);
   }
 }
